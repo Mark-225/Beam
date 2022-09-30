@@ -1,0 +1,8 @@
+rootProject.name = 'Beam'
+include 'BeamCore'
+include 'Implementations'
+include 'Implementations'
+include 'Implementations'
+include 'Implementations:BeamSpigot'
+findProject(':Implementations:BeamSpigot')?.name = 'BeamSpigot'
+
